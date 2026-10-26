@@ -41,7 +41,7 @@ Phase II evaluates selected behaviour across multi-agent chains. The supplied su
 - **Reported trial count:** 1,950
 - **Reported configurations:** 38
 - **Configuration breakdown:** 5 homogeneous and 33 heterogeneous
-- **Reported chain length:** 3 agents
+- **Chain length:** Varies by experimental configuration; see the corresponding trial records.
 - **Selected attack-vector and payload combination:** VE + P1
 
 These figures are reproduced from the supplied summary CSV and have not been independently recalculated from all trial-level records as part of this repository release.
@@ -102,7 +102,7 @@ The supplied `summary_metrics.csv` reports:
 | Heterogeneity Impact Score (HIS) | −5.22% |
 | Phase II trial count | 1,950 |
 | Configuration count | 38 |
-| Chain length | 3 agents |
+| Chain length | Varies by experimental configuration; see the corresponding trial records. |
 
 These are reported values from the supplied results, not independently verified findings in this repository release.
 
