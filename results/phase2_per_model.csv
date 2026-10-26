@@ -1,0 +1,6 @@
+model,phi1_pct,phi2_pct,phi3_pct,avg_latency_s,stop_rate_pct,notes
+GPT-4o-mini,83.8,95.9,2.4,28.84,82.5,Aggregated across all 38 chain configs containing this model
+Mistral,56.1,86.3,6.7,69.08,53.4,Highest latency — likely bottleneck in mixed chains
+Qwen-2.5-72B,16.4,60.5,4.2,35.39,16.4,Best chain-level resistance (lowest phi1 in Phase II)
+Llama,43.9,67.0,5.3,22.14,41.9,Fastest non-DeepSeek model
+DeepSeek,0.0,99.4,69.3,21.22,0.0,Stealth paradox confirmed at chain scale — never stops

@@ -1,0 +1,44 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw experiment logs and trial outputs
+*.log
+trial_results/
+chain_results/
+
+# Payloads and command scripts: review separately before publishing
+payload*.txt
+payloads_self_repl/
+c2_server/cmd.sh
+
+# Private experiment notes and agent workspaces
+trial_log.txt
+agents/
+AGENTS_clean_template.md
+payload_modifier.py
+
+# Additional raw outputs
+*.jsonl
+
+# Downloaded results bundle and extracted duplicate
+llm_worm_public_results.zip
+llm_worm_public_results/
+*:Zone.Identifier

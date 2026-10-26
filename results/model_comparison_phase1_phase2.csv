@@ -1,0 +1,7 @@
+model,phi1,phi2,phi3,SR,TSR,overall_ASR,secure_score,tier,phi1_pct,phi2_pct,phi3_pct,avg_latency_s,stop_rate_pct,notes,rank,recommended_role
+Aggregate,0.521,0.623,0.175,0.612,0.177,0.109,,,,,,,,,,
+DeepSeek,0.0,0.994,0.693,1.0,0.006,0.689,0.31,EXCLUDED_stealth_paradox,0.0,99.4,69.3,21.22,0.0,Stealth paradox confirmed at chain scale — never stops,4.0,Isolation only (stealth paradox)
+GPT-4o-mini,0.875,0.95,0.031,0.175,0.05,0.689,0.25,VULNERABLE,83.8,95.9,2.4,28.84,82.5,Aggregated across all 38 chain configs containing this model,5.0,Entry-only with sanitisation
+Llama,0.646,0.71,0.049,0.581,0.29,0.322,0.63,MEDIUM,43.9,67.0,5.3,22.14,41.9,Fastest non-DeepSeek model,2.0,Buffer / relay node
+Mistral,0.771,0.86,0.058,0.466,0.14,0.466,0.39,EXCLUDED_no_tier_separation,56.1,86.3,6.7,69.08,53.4,Highest latency — likely bottleneck in mixed chains,3.0,Monitored only
+Qwen-2.5-72B,0.313,0.6,0.042,0.836,0.4,0.019,0.88,SECURE,16.4,60.5,4.2,35.39,16.4,Best chain-level resistance (lowest phi1 in Phase II),1.0,Best genuine firebreak

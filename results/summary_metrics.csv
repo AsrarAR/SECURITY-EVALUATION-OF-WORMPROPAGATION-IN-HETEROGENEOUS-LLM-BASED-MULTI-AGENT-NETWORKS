@@ -1,0 +1,8 @@
+metric,value,formula,interpretation
+Overall_ASR_Phase2,48.4%,N(all_hops_phi1=1)/N_total per config then averaged,Average chain-level worm success across 38 configs
+R0,1.453,3.0 * avg_ASR / 100,Basic reproduction number; >1.0 = epidemic regime
+HIS,-5.22%,(lat_hetero - lat_homo) / lat_homo * 100,Heterogeneous chains are 5.22% faster than homogeneous
+total_trials_phase2,1950,38 configs * ~51 trials each,Phase II dataset size
+total_configs,38,5 homogeneous + 33 heterogeneous,Chain configuration count
+chain_length,3,Agent_1->Agent_2->Agent_3,Fixed for all Phase II trials
+attack_used_phase2,VE+P1,Indirect Tool Injection + Minimal Payload,Selected from Phase I results (highest phi1 gain at lowest payload severity)
